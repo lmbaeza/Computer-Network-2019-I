@@ -2,7 +2,7 @@
 
 ### Configuración de la IP de un Switch
 
-```sql
+```python
 Switch>enable
 Switch#configure terminal
 Switch(config)#interface vlan1
@@ -18,7 +18,7 @@ Building configuration...
 
 ### Configuración de la IP de la inteface de un Router
 
-```c
+```python
 Router>enable
 Router#configure terminal
 Router(config)#interface FastEthernet 0/0
@@ -36,7 +36,7 @@ Building configuration...
 
 1. Enable Secret
 
-```swift
+```python
 Switch>enable
 Switch#configure terminal
 Switch(config)#enable secret ciscosecret
@@ -70,7 +70,7 @@ Building configuration...
 
 *Cuando salgo del modo privilegiado y vuelvo a entrar, me pide contraseña*
 
-```markdown
+```python
 Switch#disable
 Switch>enable
 Password: 
@@ -78,7 +78,7 @@ Password:
 
 ### Configurar contraseña de la Consola
 
-```
+```python
 Switch>enable
 Switch#configure terminal
 Switch(config)#line con 0
@@ -101,7 +101,7 @@ Building configuration...
 
 ### Configurar contraseña en las conexiones remotas (ssh, telnet)
 
-```
+```python
 Switch>enable
 Switch#configure terminal
 Switch(config)#line vty 0 15
@@ -131,7 +131,7 @@ Building configuration...
 
 ### Configurar contraseña para el usuario
 
-```
+```python
 Switch>enable
 Switch#configure terminal
 Switch(config)#username lmbaeza
