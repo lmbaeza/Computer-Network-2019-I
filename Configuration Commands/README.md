@@ -2,7 +2,7 @@
 
 ### Configuración de la IP de un Switch
 
-```
+```sql
 Switch>enable
 Switch#configure terminal
 Switch(config)#interface vlan1
@@ -18,7 +18,7 @@ Building configuration...
 
 ### Configuración de la IP de la inteface de un Router
 
-```
+```c
 Router>enable
 Router#configure terminal
 Router(config)#interface FastEthernet 0/0
@@ -36,7 +36,7 @@ Building configuration...
 
 1. Enable Secret
 
-```
+```swift
 Switch>enable
 Switch#configure terminal
 Switch(config)#enable secret ciscosecret
@@ -54,7 +54,7 @@ Building configuration...
 ```
 ó
 2. Enable Password
-```
+```python
 Switch>enable
 Switch#configure terminal
 Switch(config)#enable password cisco
@@ -70,7 +70,7 @@ Building configuration...
 
 *Cuando salgo del modo privilegiado y vuelvo a entrar, me pide contraseña*
 
-```
+```markdown
 Switch#disable
 Switch>enable
 Password: 
