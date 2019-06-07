@@ -37,7 +37,7 @@ Switch(config-if)#switchport access vlan 2
 Switch(config-if)#no shutdown
 ```
 
-## Asignarle una IP a una Valn
+## Asignarle una IP a una Vlan
 
 ```python
 'Ingresar a la Interface Vlan 3'
