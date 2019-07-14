@@ -80,3 +80,8 @@ Router(config-subif)#ip address 192.168.20.1 255.255.255.0
 Router(config-subif)#no shutdown 
 Router(config-subif)#exit 
 ```
+
+
+### Bibliografia
+
+[How-to Configure Router on a Stick By Spice Works](https://community.spiceworks.com/how_to/55605-how-to-configure-router-on-a-stick)
