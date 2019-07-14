@@ -1,5 +1,7 @@
 # Truck Multiples Vlans hacia un Router
 
+![Truck Multiples Vlans hacia un Router](https://i.ibb.co/QNK5mKD/Truck.png)
+
 **Nota:** _Asignar IPs a los Computadores_
 
 ### Crear Vlans
